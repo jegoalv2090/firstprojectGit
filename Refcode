@@ -1,0 +1,72 @@
+# print(car)
+# print(type(mylist))
+# print(type(car))
+
+# importes import os
+    # data_urs='url'
+    # df1=pd.read__csv(data_url)
+    # oim = pd.read_csv('Tempoim.csv', encoding='iso-8859-1')
+    # a=df1.copy() Copia de dframe
+
+# Duplicatea
+    # a.drop_duplicates(subset=['a.country','year',keep='first',inplace=True])
+
+# arrays array([[0,1,2,3,4],[5,6,7,8,9]])
+    # matrix  numpu.matrixlib.defmatrix.matrix
+    # matrix([[0,1,2,3,4],[5,6,7,8,9]])
+# rename column names df1.rename(columns={0: 'A',1:'B',2:'C'}, inplace=True)
+# filtros:
+    # filter1 = test1[(test1.PERM.str.contains("CRP~ZCRM_MX_ADMON_AO_CA_00230"))]
+    # test1[test1.PERM == 'BWP~ZBW_GT_ADMON_AUX_SIST_00001']
+    # df1 = df['Position'].str.contains("PG")
+    # df1 = df[df['Team'].str.contains("Boston") | df['College'].str.contains('MIT')]
+# crear columnas test1.columns=["RN", 2, 3, "PERM", 5, 6, 7, 8, 9]
+    # test1=test1[['RN','PERM']]
+# crear columna dados valores de filtro
+    # df1.loc[(df1.PERM=='abc') | (df1.RN=='n'),'NameNewColumn']='Valor en caso de ser verdad'---
+    # print(a[a.Existe=='Valor en caso de ser verdad'])
+# create DFrames
+    # data = {'Name':['Tom', 'nick', 'krish', 'jack'], 'Age':[20, 21, 19, 18]} --df = pd.DataFrame(data)
+    # data={'CProd':['a','b','c'],'CPrecios':[1,2]}-----deframe
+    # defruleset = pd.DataFrame({'permiso': ["tx1", "tx2", "tx4", "tx3", "tx1"],'Riesgo': ["R01", "R01", "R02", "R03", "R03"]})
+# Recorrer DataFrames   for i in range(0, len(df1)):
+    # print(df1.iloc[i]['Prod'], df1.iloc[i]['precio'])
+    # for index, row in df1.iterrows():
+    # print(row['Prod'], row['precio'])
+    # result = []
+    # for value in df1["precio"]:
+    #     if value >= 5:
+    #         result.append("Pass")
+    #     elif value < 1 and value > 100:
+    #         result.append("Invalid")
+    #     else:
+    #         result.append("Fail")
+#
+# df1["Result"] = result
+# print(df1)
+
+
+# EXCEL
+# 
+# bb=load_workbook()
+# wb.sheetnames
+# 
+# ws = wb.active
+# 
+# ws1=bw.create_sheet("mysheet")
+# rename sheet
+# sheet1.title="newname"
+# 
+# work with only one sheet
+# ws3 = wb["New Title"]
+# 
+# 
+# access cells
+# C=ws['A4']
+# ws['A4']=4
+# 
+#  d = ws.cell(row=4, column=2, value=10)
+# 
+# 
+# ranges
+#  cell_range = ws['A1':'C2']
